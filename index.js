@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.get("/api/script/GLOBAL-LOADING-SCREEN", (req, res) => {
     res.json({
-        version: "1.0.0",
+        version: "1.0.1",
         author: "[SSNC] SPHLAC",
         contributors: {
             Nobody: ""
